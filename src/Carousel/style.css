@@ -1,0 +1,12 @@
+.slick-prev:before {
+  color: rebeccapurple !important;
+  background-color: #eee;
+}
+.slick-next:before {
+  color: rebeccapurple !important;
+  background-color: #eee;
+}
+.carousel-content {
+  margin-top: 2rem;
+  margin-bottom: 5rem;
+}

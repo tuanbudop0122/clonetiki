@@ -1,0 +1,283 @@
+/* Header */
+.header {
+  position: relative;
+  background-color: rgb(1, 127, 255);
+  z-index: 999;
+}
+
+.header .container-header {
+  width: 1270px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+.header .container-header .middle__wrap {
+  display: flex;
+  padding: 18px 0px 8px;
+  height: auto;
+  position: relative;
+  z-index: 2;
+  -webkit-box-align: center;
+  align-items: center;
+}
+.header .container-header .middle__wrap .middle__leftcontainer {
+  display: flex;
+  flex: 1 1 0%;
+  -webkit-box-align: center;
+  align-items: center;
+}
+/* Logo Header*/
+.logo-menu {
+  display: flex;
+  align-items: flex-start;
+  flex-basis: 248px;
+  flex-shrink: 0;
+  padding: 0px 16px 0px 0px;
+}
+.logo-menu .style-logo {
+  display: flex;
+  -webkit-box-pack: justify;
+  justify-content: space-between;
+  flex: 1 1 0%;
+}
+.logo-menu .style-logo .header-main_logo {
+  width: 60px;
+  height: 40px;
+  display: block;
+}
+.logo-menu .style-logo .header-main_logo img {
+  width: 100%;
+  height: 100%;
+}
+/* End logo */
+/* Menu */
+.logo-menu .style_wraper {
+  cursor: pointer;
+  display: flex;
+  align-self: stretch;
+}
+.logo-menu .style_wraper .menu_button {
+  display: flex;
+  -webkit-box-align: center;
+  align-items: center;
+  color: rgb(255, 255, 255);
+  font-size: 13px;
+  font-weight: 400;
+  min-height: 44px;
+}
+.logo-menu .style_wraper .menu_button .hamburger_menu {
+  width: 32px;
+  height: 32px;
+  margin-right: 8px;
+}
+.logo-menu .style_wraper .menu_button .wrap {
+  display: flex;
+  flex-direction: column;
+  padding-top: 2px;
+}
+.logo-menu .style_wraper .menu_button .wrap span {
+  font-size: 11px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.45;
+}
+.logo-menu .style_wraper .menu_button .wrap .text-icon {
+  font-size: 13px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.54;
+  display: flex;
+  align-items: flex-end;
+}
+.logo-menu .style_wraper .menu_button .wrap .text-icon img {
+  position: relative;
+  top: -1px;
+  width: 16px;
+  height: 16px;
+}
+/* End menu */
+/* Search */
+.form-search_root {
+  flex: 1 1 0%;
+}
+.form-search_root .form-search_form {
+  width: 100%;
+  display: flex;
+  position: relative;
+  box-shadow: rgb(98 98 98 / 50%) 0px 1px 2px 0px;
+}
+.form-search_root .form-search_form .form-search_input {
+  border: 0px;
+  padding: 0px 12px;
+  font-size: 13px;
+  border-radius: 2px 0px 0px 2px;
+  flex: 1 1 0%;
+  outline: none;
+}
+.form-search_root .form-search_form .form-search_button {
+  cursor: pointer;
+  border: 0px;
+  width: 120px;
+  background: rgb(13, 92, 182);
+  height: 40px;
+  border-radius: 0px 2px 2px 0px;
+  color: white;
+  font-size: 13px;
+  font-weight: 500;
+  outline: none;
+  display: flex;
+  -webkit-box-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  justify-content: center;
+}
+.form-search_root .form-search_form .form-search_button .icon-search {
+  width: 20px;
+  height: 20px;
+  margin: 0px 8px 0px 0px;
+}
+/* End search*/
+/* User  */
+.user-style_root {
+  display: flex;
+  -webkit-box-align: center;
+  align-items: center;
+  -webkit-box-pack: end;
+  justify-content: flex-end;
+}
+.user-style_root .user-style_item {
+  cursor: pointer;
+  margin: 0px 0px 0px 16px;
+  -webkit-box-align: center;
+  align-items: center;
+  display: flex;
+  color: rgb(255, 255, 255);
+  font-size: 12px;
+  position: relative;
+}
+.user-style_root .user-style_item .profile-icon {
+  width: 32px;
+  height: 32px;
+  margin-right: 8px;
+  border-radius: 2px;
+}
+.user-style_root .user-style_item .user-style_item-text {
+  color: rgb(255, 255, 255);
+  font-weight: 400;
+  white-space: nowrap;
+  display: flex;
+  flex-direction: column;
+}
+.user-style_root .user-style_item .user-style_item-text .user-style_no-wrap {
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  display: inline-block;
+  overflow: hidden;
+  text-transform: capitalize;
+  font-size: 11px;
+  line-height: 16px;
+  color: white;
+  border: none;
+}
+.user-style_root .user-style_item .user-style_item-text .account-label {
+  display: flex;
+  -webkit-box-align: center;
+  align-items: center;
+  font-size: 13px;
+  line-height: 20px;
+  min-width: 120px;
+}
+
+.user-style_root .user-style_item .user-style_item-text .account-label span {
+  max-width: 104px;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+.user-style_root
+  .user-style_item
+  .user-style_item-text
+  .account-label
+  .arrow-icon {
+  width: 16px;
+  height: 16px;
+}
+/* End User */
+/* Card */
+.user-style_card-item {
+  position: relative;
+  display: block;
+}
+.user-style_card-item a {
+  color: rgb(0, 127, 240);
+  text-decoration: none;
+}
+.user-style_card-item .user-style_item-sc {
+  cursor: pointer;
+  margin: 0px 0px 0px 16px;
+  -webkit-box-align: center;
+  display: flex;
+  color: rgb(255, 255, 255);
+  font-size: 12px;
+  position: relative;
+  letter-spacing: normal;
+  align-items: flex-end;
+}
+.user-style_card-item .user-style_item-sc .card-wraper {
+  position: relative;
+  margin-right: 8px;
+  display: flex;
+}
+.user-style_card-item .user-style_item-sc .card-wraper .cart-icon {
+  width: 32px;
+  height: 32px;
+}
+.user-style_card-item .user-style_item-sc .card-wraper .card-wraper_item {
+  color: rgb(36, 36, 36);
+  background: rgb(253, 216, 53);
+  height: 20px;
+  left: 20px;
+  top: -2px;
+  border-radius: 40px;
+  display: inline-block;
+  text-align: center;
+  line-height: 20px;
+  font-size: 13px;
+  font-weight: 500;
+  position: absolute;
+  padding: 0px 7px;
+}
+/* End card */
+/* Menu Bottom */
+.header .bottom-root {
+  position: relative;
+  z-index: 1;
+}
+.header .bottom-root .bottom-menu {
+  width: 1270px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-right: auto;
+  margin-left: auto;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.header .bottom-root .bottom-menu .style-header-keywords {
+  margin-left: 248px;
+  height: 32px;
+}
+.header .bottom-root .bottom-menu .style-header-keywords a {
+  font-size: 11px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.45;
+  letter-spacing: normal;
+  color: white;
+  margin-right: 12px;
+}

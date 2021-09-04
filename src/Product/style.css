@@ -1,0 +1,21 @@
+.product {
+  display: flex;
+  flex-direction: column;
+  -webkit-box-align: center;
+  align-items: center;
+  background: white;
+  padding: 0px 0px 16px;
+  margin-bottom: 24px;
+  border-radius: 0px 0px 4px 4px;
+}
+.product .content {
+  display: flex;
+  flex-wrap: wrap;
+  align-self: stretch;
+  background-color: rgb(255, 255, 255);
+  border-top: 1px solid rgb(242, 242, 242);
+}
+.product .content .item {
+  width: 25%;
+  height: 334px;
+}
